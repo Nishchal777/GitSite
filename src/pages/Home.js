@@ -11,7 +11,7 @@ function Home() {
           <h1>GET HEALTHY BODY WITH PERFECT EXERCISE</h1>
           <p>
             We are always here to help you to get your dream body with perfect
-            exercise.
+            exercise
           </p>
           <Link to="/membership">
             <button>Get Started</button>
