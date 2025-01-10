@@ -40,7 +40,9 @@
   max-width: 450px;
   text-align: left;
 }
-
+.text-content h1 {
+  font-family: "Playfair Display", serif;
+}
 .text-content h2 {
   font-size: 28px;
   margin-bottom: 15px;
@@ -50,6 +52,7 @@
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
 }
 
 .cta-button {

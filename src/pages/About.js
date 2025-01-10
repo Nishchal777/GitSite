@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/About.css";
 import Photo from "../assest/about.jpg";
+import "@fontsource/playfair-display";
 
 function About() {
   return (
