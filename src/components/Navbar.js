@@ -19,7 +19,9 @@ function Navbar() {
           <Link to="/program">Program</Link>
           <Link to="/membership">Membership</Link>
           <Link to="/testimonials">Testimonials</Link>
-          <Link to="/signup">Signup</Link>
+          <Link to="/LoginForm" className="signup">
+            Sign Up
+          </Link>
         </div>
       </div>
       <div className="rightSide">
@@ -28,7 +30,7 @@ function Navbar() {
         <Link to="/program">Program</Link>
         <Link to="/membership">Membership</Link>
         <Link to="/testimonials">Testimonials</Link>
-        <Link to="/signup" className="signup">
+        <Link to="/LoginForm" className="signup">
           Sign Up
         </Link>
         <button onClick={toggleNavbar}>
