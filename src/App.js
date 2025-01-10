@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Program from "./pages/Program";
 import Membership from "./pages/membership";
 import Testimonials from "./pages/Testimonials";
+import LoginForm from "./pages/LoginForm";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/program" element={<Program />} />
           <Route path="/membership" element={<Membership />} />
           <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/LoginForm" element={<LoginForm />} />
         </Routes>
       </Router>
     </div>
